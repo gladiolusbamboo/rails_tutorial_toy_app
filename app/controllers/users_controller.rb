@@ -4,6 +4,7 @@ class UsersController < ApplicationController
   # GET /users
   # GET /users.json
   def index
+    # インスタンス変数@usersにUserモデルからすべてのユーザーを取り出し代入する
     @users = User.all
   end
 
